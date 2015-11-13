@@ -83,6 +83,12 @@
             android:title="@string/qs_brightness_slider_title"
             android:defaultValue="true"/>
 
+        <com.android.purenexussettings.preferences.SystemSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
+
         <com.android.purenexussettings.preferences.SecureSettingSwitchPreference
             android:key="lockscreen_hide_qs_tiles_with_sensitive_data"
             android:title="@string/qs_hide_tiles_with_sensitive_data"
