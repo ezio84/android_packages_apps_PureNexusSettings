@@ -142,6 +142,10 @@ public class QSTileHolder {
                 resourceName = "ic_qs_screenshot";
                 stringId = R.string.qs_screenshot_tile;
                 break;
+            case QSConstants.TILE_THEMES:
+                resourceName = "ic_qs_themes_on";
+                stringId = R.string.qs_tile_themes;
+                break;
             default:
                 return null;
         }
