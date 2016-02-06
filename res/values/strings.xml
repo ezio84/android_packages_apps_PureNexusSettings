@@ -266,6 +266,8 @@
     <string name="keyguard_torch_summary">Longpress power button with screen off turns on torch</string>
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
+    <string name="hide_lockscreen_date_title">Show lockscreen date</string>
 
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Lockscreen clock font</string>
