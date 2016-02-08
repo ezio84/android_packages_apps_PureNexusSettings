@@ -75,6 +75,7 @@ public class LockscreenFragment extends PreferenceFragment
         mLsWeather = (Preference)findPreference(LSWEATHER);
 
         PreferenceCategory generalCategory = (PreferenceCategory) findPreference("lockscreen_gen");
+        PreferenceCategory customizationCategory = (PreferenceCategory) findPreference("lockscreen_cus");
         PreferenceCategory mPrefCat = (PreferenceCategory) findPreference("lockscreen_wallpaper");
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();

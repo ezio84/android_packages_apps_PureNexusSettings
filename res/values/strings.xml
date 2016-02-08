@@ -244,11 +244,12 @@
     <string name="cancel">Cancel</string>
     
   <!-- Lockscreen Fragment -->
-    <string name="lockscreen_frag_title">Lock screen</string>
-    <string name="lockscreen_gen_title">General options</string>
-    <string name="lockscreen_targets_message">Lock screen shortcuts</string>
+    <string name="lockscreen_frag_title">Lockscreen</string>
+    <string name="lockscreen_gen_title">Lockscreen general options</string>
+    <string name="lockscreen_cus_title">Lockscreen customization options</string>
+    <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
     <string name="lockscreen_wallpaper_title">Lockscreen wallpaper</string>
-    <string name="lockscreen_wallpaper_set_title">Set lock screen wallpaper</string>
+    <string name="lockscreen_wallpaper_set_title">Set lockscreen wallpaper</string>
     <string name="lockscreen_wallpaper_clear_title">Reset lock screen wallpaper</string>
     <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper reset</string>
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
@@ -266,8 +267,12 @@
     <string name="keyguard_torch_summary">Longpress power button with screen off turns on torch</string>
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
-    <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
-    <string name="hide_lockscreen_date_title">Show lockscreen date</string>
+    <string name="hide_lockscreen_clock_title">Lockscreen clock</string>
+    <string name="hide_lockscreen_clock_summary">Enable clock on lockscreen</string>
+    <string name="hide_lockscreen_date_title">Lockscreen date</string>
+    <string name="hide_lockscreen_date_summary">Enable date on lockscreen</string>
+    <string name="hide_lockscreen_alarm_title">Lockscreen alarm text</string>
+    <string name="hide_lockscreen_alarm_summary">Enable alarm text on lockscreen</string>
 
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Lockscreen clock font</string>
