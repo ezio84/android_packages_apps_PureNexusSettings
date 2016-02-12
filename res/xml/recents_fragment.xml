@@ -17,6 +17,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:pure="http://schemas.android.com/apk/res-auto" >
 
+
+    <Preference
+        android:key="recent_panel"
+        android:title="@string/recent_panel_category">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.android.settings.slim.RecentPanel" />
+    </Preference>
+        
     <ListPreference
         android:key="immersive_recents"
         android:title="@string/immersive_recents_title"
