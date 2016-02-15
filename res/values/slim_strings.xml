@@ -17,4 +17,6 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res/android">
   <!-- Slim Recents -->
     <string name="recent_panel_category">SlimRecent</string>
+    
+    <string name="qs_hide_tiles_with_sensitive_data">Hide sensitive tiles when locked</string>
 </resources>
