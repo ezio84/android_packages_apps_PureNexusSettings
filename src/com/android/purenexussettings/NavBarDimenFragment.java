@@ -37,7 +37,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.android.internal.util.cm.ScreenType;
+import com.android.internal.util.purenexus.ScreenType;
 
 public class NavBarDimenFragment extends PreferenceFragment implements
         OnPreferenceChangeListener {

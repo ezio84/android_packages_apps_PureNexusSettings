@@ -32,8 +32,8 @@ import android.provider.Settings;
 import android.support.annotation.NonNull;
 import com.android.purenexussettings.preferences.SystemSettingSwitchPreference;
 
-import com.android.internal.util.cm.PowerMenuConstants;
-import static com.android.internal.util.cm.PowerMenuConstants.*;
+import com.android.internal.util.purenexus.PowerMenuConstants;
+import static com.android.internal.util.purenexus.PowerMenuConstants.*;
 
 import java.util.Arrays;
 import java.util.ArrayList;

@@ -64,21 +64,26 @@
     <PreferenceCategory
         android:title="@string/qs_panel_title">
 
-        <Preference
-            android:key="qs_order"
-            android:title="@string/qs_order_title" />
+        <PreferenceScreen
+                android:title="@string/quick_settings_title"
+                android:summary="@string/quick_settings_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.systemui"
+                    android:targetClass="com.android.systemui.tuner.QsActivity" />
+        </PreferenceScreen>
 
         <com.android.purenexussettings.preferences.SecureSettingSwitchPreference
             android:key="sysui_qs_main_tiles"
             android:title="@string/qs_main_tiles_title"
-            android:summaryOn="@string/qs_main_tiles_summary_on"
-            android:summaryOff="@string/qs_main_tiles_summary_off"
+            android:summary="@string/qs_main_tiles_summary"
             android:defaultValue="true" />
 
-        <com.android.purenexussettings.preferences.SecureSettingSwitchPreference
-            android:key="qs_use_four_columns"
-            android:title="@string/qs_four_columns_title"
-            android:defaultValue="false" />
+        <ListPreference
+            android:key="sysui_qs_num_columns"
+            android:title="@string/qs_num_columns_title"
+            android:entries="@array/qs_num_columns_entries"
+            android:entryValues="@array/qs_num_columns_values"
+            android:persistent="false" />
 
         <com.android.purenexussettings.preferences.SecureSettingSwitchPreference
             android:key="qs_location_advanced"

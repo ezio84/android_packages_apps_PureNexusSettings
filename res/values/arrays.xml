@@ -25,7 +25,7 @@
     </string-array>
 
     <integer-array name="nav_drawer_cat_nums" translatable="false">
-        <item>14</item> <!-- this first part indicates the number of navdrawer frags NOT to be listed -->
+        <item>13</item> <!-- this first part indicates the number of navdrawer frags NOT to be listed -->
         <item>4</item>
         <item>3</item>
         <item>2</item>
@@ -45,7 +45,6 @@
         <item>@string/nettraffic_frag_title</item>
         <item>@string/navbarbuttonfrag_title</item>
         <item>@string/carrierlabelfrag_title</item>
-        <item>@string/qs_order_title</item>
         <item>@string/volume_steps_fragment_title</item>
         <item>@string/lockscreen_weather_fragment_title</item>
         <item>@string/lockscreen_frag_title</item>
@@ -75,7 +74,6 @@
         <item>NetworkTrafficFragment</item>
         <item>NavbarButtonFragment</item>
         <item>CarrierLabelFragment</item>
-        <item>qs.QSTiles</item>
         <item>VolumeStepsFragment</item>
         <item>LockscreenWeatherFragment</item>
         <item>LockscreenFragment</item>
@@ -95,7 +93,6 @@
     <!-- Keep them in order as the titles are in -->
     <!-- Also note that icons for items not in navdrawer won't be shown -->
     <array name="nav_drawer_icons" translatable="false">
-        <item>null</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
@@ -576,6 +573,19 @@
         <item>15</item>
         <item>16</item>
         <item>17</item>
+    </string-array>
+
+    <!-- QS Tiles Columns -->
+    <string-array name="qs_num_columns_values" translatable="false">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="qs_num_columns_entries">
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
     </string-array>
 
     <!-- Immersive Recents -->

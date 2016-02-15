@@ -38,9 +38,6 @@
     <color name="navdrawer_cat_bg">@color/material_blue_grey_950</color>
     <color name="buildprop_desc_color">#ff0288d1</color>
     <color name="fab_color">@color/col_accnt</color>
-    <color name="qs_tile_tint_color">@color/col_accnt</color>
-    <color name="qs_text_color">@color/list_item_title</color>
-    <color name="qs_tile_default_background_color">@color/cardlayout_bg</color>
     <!-- If one wanted... they could alter the checkered alpha colors with the below -->
     <color name="alphawhite">#ffffffff</color>
     <color name="alphagray">#ffcbcbcb</color>
