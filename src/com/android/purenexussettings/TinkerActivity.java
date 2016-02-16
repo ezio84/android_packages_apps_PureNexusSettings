@@ -329,9 +329,9 @@ public class TinkerActivity extends AppCompatActivity {
 
             try {
                 FragmentTransaction fragtrans = fragmentManager.beginTransaction();
-                if (mFromClick || mMenu || mBackPress) {
-                    fragtrans.setCustomAnimations(R.anim.fadein, R.anim.fadeout, R.anim.fadein, R.anim.fadeout);
-                }
+                //if (mFromClick || mMenu || mBackPress) {
+                    //fragtrans.setCustomAnimations(R.anim.fadein, R.anim.fadeout, R.anim.fadein, R.anim.fadeout);
+                //}
                 fragtrans.add(R.id.frame_container, frags);
                 // The backstack should be cleared if not coming from a fragment flagged as stack keeping or from a backpress
                 // After clearing the only entry should be About/main
