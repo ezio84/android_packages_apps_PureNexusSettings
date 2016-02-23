@@ -23,6 +23,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -53,6 +54,7 @@ public class LockscreenFragment extends PreferenceFragment
     private static final String LSWEATHER = "ls_weather";
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCKSCREEN_MAX_NOTIF_CONFIG = "lockscreen_max_notif_cofig";
+    private static final String PREF_LS_BOUNCER = "lockscreen_bouncer";
 
     private FingerprintManager mFingerprintManager;
     private Preference mSetWallpaper;
@@ -62,6 +64,7 @@ public class LockscreenFragment extends PreferenceFragment
     private SeekBarPreference mMaxKeyguardNotifConfig;
     private SystemSettingSwitchPreference mLsTorch;
     private SystemSettingSwitchPreference mFingerprintVib;
+    ListPreference mLsBouncer;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -102,6 +105,13 @@ public class LockscreenFragment extends PreferenceFragment
         if (!mFingerprintManager.isHardwareDetected()){
             generalCategory.removePreference(mFingerprintVib);
         }
+
+        mLsBouncer = (ListPreference) findPreference(PREF_LS_BOUNCER);
+        mLsBouncer.setOnPreferenceChangeListener(this);
+        int lockbouncer = Settings.Secure.getInt(resolver,
+                Settings.Secure.LOCKSCREEN_BOUNCER, 0);
+        mLsBouncer.setValue(String.valueOf(lockbouncer));
+        updateBouncerSummary(lockbouncer);
 
         // check if wallpaper app installed
         try {
@@ -151,8 +161,41 @@ public class LockscreenFragment extends PreferenceFragment
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.LOCKSCREEN_MAX_NOTIF_CONFIG, kgconf);
             return true;
+        } else if (preference == mLsBouncer) {
+            int lockbouncer = Integer.valueOf((String) newValue);
+            Settings.Secure.putInt(resolver, Settings.Secure.LOCKSCREEN_BOUNCER, lockbouncer);
+            updateBouncerSummary(lockbouncer);
+            return true;
         }
         return false;
+    }
+
+    private void updateBouncerSummary(int value) {
+        Resources res = getResources();
+ 
+        if (value == 0) {
+            // stock bouncer
+            mLsBouncer.setSummary(res.getString(R.string.ls_bouncer_on_summary));
+        } else if (value == 1) {
+            // bypass bouncer
+            mLsBouncer.setSummary(res.getString(R.string.ls_bouncer_off_summary));
+        } else {
+            String type = null;
+            switch (value) {
+                case 2:
+                    type = res.getString(R.string.ls_bouncer_dismissable);
+                    break;
+                case 3:
+                    type = res.getString(R.string.ls_bouncer_persistent);
+                    break;
+                case 4:
+                    type = res.getString(R.string.ls_bouncer_all);
+                    break;
+            }
+            // Remove title capitalized formatting
+            type = type.toLowerCase();
+            mLsBouncer.setSummary(res.getString(R.string.ls_bouncer_summary, type));
+        }
     }
 
     @Override
