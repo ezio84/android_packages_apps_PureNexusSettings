@@ -54,6 +54,8 @@ public class LockscreenFragment extends PreferenceFragment
     private static final String LSWEATHER = "ls_weather";
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCKSCREEN_MAX_NOTIF_CONFIG = "lockscreen_max_notif_cofig";
+    private static final String LOCKSCREEN_ALPHA = "lockscreen_alpha";
+    private static final String LOCKSCREEN_SECURITY_ALPHA = "lockscreen_security_alpha";
     private static final String PREF_LS_BOUNCER = "lockscreen_bouncer";
 
     private FingerprintManager mFingerprintManager;
@@ -64,6 +66,8 @@ public class LockscreenFragment extends PreferenceFragment
     private SeekBarPreference mMaxKeyguardNotifConfig;
     private SystemSettingSwitchPreference mLsTorch;
     private SystemSettingSwitchPreference mFingerprintVib;
+    private SeekBarPreference mLsAlpha;
+    private SeekBarPreference mLsSecurityAlpha;
     ListPreference mLsBouncer;
 
     @Override
@@ -112,6 +116,18 @@ public class LockscreenFragment extends PreferenceFragment
                 Settings.Secure.LOCKSCREEN_BOUNCER, 0);
         mLsBouncer.setValue(String.valueOf(lockbouncer));
         updateBouncerSummary(lockbouncer);
+
+        mLsAlpha = (SeekBarPreference) findPreference(LOCKSCREEN_ALPHA);
+        float alpha = Settings.System.getFloat(resolver,
+                Settings.System.LOCKSCREEN_ALPHA, 0.45f);
+        mLsAlpha.setValue((int)(100 * alpha));
+        mLsAlpha.setOnPreferenceChangeListener(this);
+
+        mLsSecurityAlpha = (SeekBarPreference) findPreference(LOCKSCREEN_SECURITY_ALPHA);
+        float alpha2 = Settings.System.getFloat(resolver,
+                Settings.System.LOCKSCREEN_SECURITY_ALPHA, 0.75f);
+        mLsSecurityAlpha.setValue((int)(100 * alpha2));
+        mLsSecurityAlpha.setOnPreferenceChangeListener(this);
 
         // check if wallpaper app installed
         try {
@@ -165,6 +181,16 @@ public class LockscreenFragment extends PreferenceFragment
             int lockbouncer = Integer.valueOf((String) newValue);
             Settings.Secure.putInt(resolver, Settings.Secure.LOCKSCREEN_BOUNCER, lockbouncer);
             updateBouncerSummary(lockbouncer);
+            return true;
+        } else if (preference == mLsAlpha) {
+            int alpha = (Integer) newValue;
+            Settings.System.putFloat(resolver,
+                    Settings.System.LOCKSCREEN_ALPHA, alpha / 100.0f);
+            return true;
+        } else if (preference == mLsSecurityAlpha) {
+            int alpha2 = (Integer) newValue;
+            Settings.System.putFloat(resolver,
+                    Settings.System.LOCKSCREEN_SECURITY_ALPHA, alpha2 / 100.0f);
             return true;
         }
         return false;

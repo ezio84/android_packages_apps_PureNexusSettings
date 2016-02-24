@@ -110,6 +110,26 @@
             android:summary="@string/media_art_summary"
             android:defaultValue="true" />
 
+        <com.android.purenexussettings.preferences.SeekBarPreference
+            android:key="lockscreen_alpha"
+            android:title="@string/lockscreen_alpha"
+            android:max="100"
+            pure:minimum="0"
+            pure:interval="1"
+            pure:unitsLeft=""
+            pure:unitsRight="%"
+            android:persistent="false" />
+
+        <com.android.purenexussettings.preferences.SeekBarPreference
+            android:key="lockscreen_security_alpha"
+            android:title="@string/lockscreen_security_alpha"
+            android:max="100"
+            pure:minimum="0"
+            pure:interval="1"
+            pure:unitsLeft=""
+            pure:unitsRight="%"
+            android:persistent="false" />
+
         <com.android.purenexussettings.preferences.SystemSettingSwitchPreference
             android:key="lock_screen_custom_notif"
             android:title="@string/lockscreen_maxnotif_title"
