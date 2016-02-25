@@ -25,6 +25,8 @@ import android.support.annotation.NonNull;
 public class NavbarFragment extends PreferenceFragment {
     public NavbarFragment(){}
 
+    private static final String NAVBAR_SETTINGS = "navbar_settings";
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

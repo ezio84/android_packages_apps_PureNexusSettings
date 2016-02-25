@@ -16,4 +16,9 @@
 
 <resources xmlns:xliff="http://schemas.android.com/apk/res/android">
     <string name="qs_hide_tiles_with_sensitive_data">Hide sensitive tiles when locked</string>
+
+    <string name="navigation_settings_category">Advanced NavBar customization</string>
+
+    <string name="double_tap_sleep_nav_bar_title">Tap navigation bar to sleep</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double tap navigation bar to put device to sleep</string>
 </resources>
