@@ -238,11 +238,6 @@
     <string name="dial6">Info</string>
     <string name="dial6_sum">Current network info</string>
 
-  <!-- General strings -->
-    <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
-    
   <!-- Lockscreen Fragment -->
     <string name="lockscreen_frag_title">Lockscreen</string>
     <string name="lockscreen_gen_title">Lockscreen general options</string>
@@ -327,43 +322,7 @@
 
   <!-- Navbar fragment -->
     <string name="navbar_frag_title">Navigation bar</string>
-    <string name="navigation_bar_cus">Navbar customization</string>
     <string name="navigation_bar_opt_cat">Navigation bar options</string>
-    <!-- Kill app long-press back -->
-    <string name="kill_app_longpress_back">Kill app back button</string>
-    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
-    <string name="long_press_kill_delay">App kill delay</string>
-    <!-- Recent longpress last app toggle -->
-    <string name="recents_longpress_title">Recents longpress</string>
-    <string name="recents_longpress_summary">Longpress recents to go to last open app</string>
-    <string name="ime_switcher_notify">IME selector icon</string>
-    <string name="ime_switcher_notify_summary">Display input method selector icon</string>
-    <string name="double_tap_sleep_nav_bar_title">Double-tap to sleep</string>
-    <string name="double_tap_sleep_nav_bar_summary">Double tap on the navigation bar to put the device to sleep</string>
-    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
-    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons while typing. Overrides IME switcher.</string>
-    <string name="navbar_enable_bar">Enable</string>
-    <string name="navbardimenfrag_title">Navbar Dimensions</string>
-    <string name="navbar_dimensions_reset_message">Reset all dimensions entries to default?</string>
-    <string name="navigation_bar_height_title">Navigation bar height</string>
-    <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
-    <string name="navigation_bar_width_title">Navigation bar width</string>
-    <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
-    <string name="navigation_bar_size_36_dp">36 dp</string>
-    <string name="navigation_bar_size_30_dp">30 dp</string>
-    <string name="navigation_bar_size_24_dp">24 dp</string>
-    <string name="navigation_bar_size_52_dp">52 dp</string>
-    <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
-    <string name="navigation_bar_size_44_dp">44 dp</string>
-    <string name="navigation_bar_size_40_dp">40 dp</string>
-    <string name="navigation_bar_size_42_dp">42 dp</string>
-    <string name="navigation_bar_size_0_dp">0 dp (off)</string>
-    <string name="navbarbuttonfrag_title">Buttons and layout</string>
-    <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap \'Save\' to commit your changes, or \'Restore defaults\' to reset the layout to default settings.</string>
-    <string name="navigation_restore_button_text">Restore\ndefaults</string>
-    <string name="navigation_edit_button_text">Edit</string>
-    <string name="navigation_save_button_text">Save</string>
-    <string name="navigation_bar_reset_message">Delete current settings and restore the default layout?</string>
 
   <!-- Network traffic fragment -->
     <string name="status_bar_traffic_summary">Network traffic options</string>

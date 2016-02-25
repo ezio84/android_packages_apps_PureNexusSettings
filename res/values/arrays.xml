@@ -25,7 +25,7 @@
     </string-array>
 
     <integer-array name="nav_drawer_cat_nums" translatable="false">
-        <item>13</item> <!-- this first part indicates the number of navdrawer frags NOT to be listed -->
+        <item>12</item> <!-- this first part indicates the number of navdrawer frags NOT to be listed -->
         <item>4</item>
         <item>3</item>
         <item>2</item>
@@ -41,9 +41,7 @@
         <item>@string/fiswitch_frag_title</item>
         <item>@string/battery_frag_title</item>
         <item>@string/clockdate_frag_title</item>
-        <item>@string/navbardimenfrag_title</item>
         <item>@string/nettraffic_frag_title</item>
-        <item>@string/navbarbuttonfrag_title</item>
         <item>@string/carrierlabelfrag_title</item>
         <item>@string/volume_steps_fragment_title</item>
         <item>@string/lockscreen_weather_fragment_title</item>
@@ -70,9 +68,7 @@
         <item>FiSwitchFragment</item>
         <item>BatteryFragment</item>
         <item>ClockDateFragment</item>
-        <item>NavBarDimenFragment</item>
         <item>NetworkTrafficFragment</item>
-        <item>NavbarButtonFragment</item>
         <item>CarrierLabelFragment</item>
         <item>VolumeStepsFragment</item>
         <item>LockscreenWeatherFragment</item>
@@ -93,8 +89,6 @@
     <!-- Keep them in order as the titles are in -->
     <!-- Also note that icons for items not in navdrawer won't be shown -->
     <array name="nav_drawer_icons" translatable="false">
-        <item>null</item>
-        <item>null</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
@@ -316,73 +310,6 @@
         <item>EEEE dd/MM</item>
         <item>EEEE MM/dd</item>
         <item>@string/clock_date_format_custom</item>
-    </string-array>
-
-    <!-- Navigation bar custom dimensions -->
-    <string-array name="navigation_bar_width_entries" translatable="false">
-        <item>@string/navigation_bar_size_42_dp_default</item>
-        <item>@string/navigation_bar_size_40_dp</item>
-        <item>@string/navigation_bar_size_36_dp</item>
-        <item>@string/navigation_bar_size_30_dp</item>
-        <item>@string/navigation_bar_size_24_dp</item>
-        <item>@string/navigation_bar_size_0_dp</item>
-    </string-array>
-
-    <string-array name="navigation_bar_width" translatable="false">
-        <item>42</item>
-        <item>40</item>
-        <item>36</item>
-        <item>30</item>
-        <item>24</item>
-        <item>0</item>
-    </string-array>
-
-    <string-array name="navigation_bar_height_entries" translatable="false">
-        <item>@string/navigation_bar_size_52_dp</item>
-        <item>@string/navigation_bar_size_48_dp_default</item>
-        <item>@string/navigation_bar_size_44_dp</item>
-        <item>@string/navigation_bar_size_42_dp</item>
-        <item>@string/navigation_bar_size_40_dp</item>
-        <item>@string/navigation_bar_size_36_dp</item>
-        <item>@string/navigation_bar_size_30_dp</item>
-        <item>@string/navigation_bar_size_24_dp</item>
-        <item>@string/navigation_bar_size_0_dp</item>
-    </string-array>
-
-    <string-array name="navigation_bar_height" translatable="false">
-        <item>52</item>
-        <item>48</item>
-        <item>44</item>
-        <item>42</item>
-        <item>40</item>
-        <item>36</item>
-        <item>30</item>
-        <item>24</item>
-        <item>0</item>
-    </string-array>
-
-    <string-array name="navigation_bar_height_entries_landscape" translatable="false">
-        <item>@string/navigation_bar_size_52_dp</item>
-        <item>@string/navigation_bar_size_48_dp_default</item>
-        <item>@string/navigation_bar_size_44_dp</item>
-        <item>@string/navigation_bar_size_42_dp</item>
-        <item>@string/navigation_bar_size_40_dp</item>
-        <item>@string/navigation_bar_size_36_dp</item>
-        <item>@string/navigation_bar_size_30_dp</item>
-        <item>@string/navigation_bar_size_24_dp</item>
-        <item>@string/navigation_bar_size_0_dp</item>
-    </string-array>
-
-    <string-array name="navigation_bar_height_landscape" translatable="false">
-        <item>52</item>
-        <item>48</item>
-        <item>44</item>
-        <item>42</item>
-        <item>40</item>
-        <item>36</item>
-        <item>30</item>
-        <item>24</item>
-        <item>0</item>
     </string-array>
 
     <!-- Network Traffic -->
