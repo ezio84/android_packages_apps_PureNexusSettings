@@ -205,6 +205,8 @@
     <string name="buildpropsummary">Click to open build.prop editor</string>
     <string name="fiswitchtitle">Project Fi Tools</string>
     <string name="fiswitchsummary">Click for useful dial codes</string>
+    <string name="app_ops_title">AppOps</string>
+    <string name="app_ops_summary">Advanced permission &amp; application management</string>
 
   <!-- Display fragment -->
     <string name="display_frag_title">Display</string>
