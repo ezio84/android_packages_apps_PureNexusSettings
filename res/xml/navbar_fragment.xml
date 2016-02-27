@@ -31,4 +31,11 @@
             android:targetClass="com.android.settings.slim.NavbarSettings" />
     </Preference>
 
+    <Preference
+        android:key="pie_settings"
+        android:title="@string/pie_settings_category">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.android.settings.slim.PieControl" />
+    </Preference>
 </PreferenceScreen>

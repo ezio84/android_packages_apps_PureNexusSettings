@@ -321,7 +321,7 @@
     <string name="util_cat_title">Utilities</string>
 
   <!-- Navbar fragment -->
-    <string name="navbar_frag_title">Navigation bar</string>
+    <string name="navbar_frag_title">Navigation bar and pie</string>
     <string name="navigation_bar_opt_cat">Navigation bar options</string>
 
   <!-- Network traffic fragment -->

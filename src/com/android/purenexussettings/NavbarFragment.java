@@ -26,6 +26,7 @@ public class NavbarFragment extends PreferenceFragment {
     public NavbarFragment(){}
 
     private static final String NAVBAR_SETTINGS = "navbar_settings";
+    private static final String PIE_SETTINGS = "pie_settings";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
