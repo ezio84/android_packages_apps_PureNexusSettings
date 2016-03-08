@@ -59,13 +59,6 @@
             android:entryValues="@array/less_notification_sounds_values"
             android:persistent="false" />
 
-        <com.android.purenexussettings.preferences.SecureSettingSwitchPreference
-            android:key="doze_notification_invert_enabled"
-            android:title="@string/doze_notification_color_invert_title"
-            android:summaryOn="@string/doze_notification_color_invert_summary_on"
-            android:summaryOff="@string/doze_notification_color_invert_summary_off"
-            android:defaultValue="true" />
-
         <com.android.purenexussettings.preferences.SystemSettingSwitchPreference
             android:key="battery_saver_notification"
             android:title="@string/battery_saver_notif_title"
