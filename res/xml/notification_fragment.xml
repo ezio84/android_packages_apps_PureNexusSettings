@@ -45,11 +45,13 @@
         android:key="notif_cat"
         android:title="@string/notif_cat_title" >
 
-        <com.android.purenexussettings.preferences.GlobalSettingSwitchPreference
-            android:key="heads_up_notifications_enabled"
-            android:title="@string/heads_up_notifications_title"
-            android:summary="@string/heads_up_notifications_summary"
-            android:defaultValue="true" />
+        <PreferenceScreen
+                android:title="@string/headsup_settings_title"
+                android:key="heads_up_frag" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.nexus.HeadsUpSettings" />
+        </PreferenceScreen>
 
         <ListPreference
             android:key="less_notification_sounds"

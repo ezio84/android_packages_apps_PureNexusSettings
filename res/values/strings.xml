@@ -373,8 +373,9 @@
     <string name="camera_sounds_summary">Enable system camera shutter sound</string>
     <string name="dbl_tap_vib_title">Double tap power for camera vibration</string>
     <string name="dbl_tap_vib_summary">Vibrate on double tap of power button when enabled</string>
-    <string name="heads_up_notifications_title">Heads up notifications</string>
-    <string name="heads_up_notifications_summary">Turns off peeking notifications globally when disabled</string>
+    <string name="headsup_settings_title">Heads up notifications</string>
+    <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Peeking notifications are disabled</string>
     <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
     <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
     <string name="less_notification_sounds_title">Less frequent notification sounds</string>
