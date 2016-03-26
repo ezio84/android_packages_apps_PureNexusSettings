@@ -323,6 +323,7 @@
     <string name="less_notification_sounds_5m">5 minuti</string>
 
   <!-- powermenu fragment -->
+    <string name="power_menu_torch_title">Torcia</string>
     <string name="powermenu_frag_title">Menu Power</string>
     <string name="power_category">Opzioni menu Power</string>
     <string name="actions_category">Elementi menu Power</string>
