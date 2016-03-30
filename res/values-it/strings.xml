@@ -308,8 +308,9 @@
     <string name="camera_sounds_summary">Attiva il suono di notifica allo scatto della fotocamera</string>
     <string name="dbl_tap_vib_title">Vibrazione per doppio tap fotocamera</string>
     <string name="dbl_tap_vib_summary">Vibra al doppio tap sul tasto power per l\'attivazione della fotocamera</string>
-    <string name="heads_up_notifications_title">Notifiche heads up</string>
-    <string name="heads_up_notifications_summary">Attiva la visualizzazione delle notifiche heads up</string>
+    <string name="headsup_settings_title">Notifiche Heads up</string>
+    <string name="summary_heads_up_enabled">Heads up attivate</string>
+    <string name="summary_heads_up_disabled">Heads up disattivate</string>
     <string name="interruptions_ignore_while_media_title">Previeni riduzione audio</string>
     <string name="interruptions_ignore_while_media_summary">Non ridurre il volume di riproduzione multimediale quando arriva una notifica</string>
     <string name="less_notification_sounds_title">Suoni notifica meno frequenti</string>
