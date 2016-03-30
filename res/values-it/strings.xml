@@ -290,6 +290,9 @@
     <string name="quick_settings_summary">Configura i Quick settings</string>
     <string name="qs_num_columns_title">Numero di tiles per riga</string>
     <string name="qs_num_columns_showing">%1$s tiles per riga</string>
+    <string name="qs_num_columns_entries_three">Tre</string>
+    <string name="qs_num_columns_entries_four">Quattro</string>
+    <string name="qs_num_columns_entries_five">Cinque</string>
     <string name="quick_settings_vibrate_title">Vibra al tocco</string>
     <string name="quick_settings_vibrate_summary">Vibra al tocco delle tiles</string>
 

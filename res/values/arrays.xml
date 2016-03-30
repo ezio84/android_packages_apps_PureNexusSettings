@@ -474,9 +474,9 @@
     </string-array>
 
     <string-array name="qs_num_columns_entries">
-        <item>Three</item>
-        <item>Four</item>
-        <item>Five</item>
+        <item>@string/qs_num_columns_entries_three</item>
+        <item>@string/qs_num_columns_entries_four</item>
+        <item>@string/qs_num_columns_entries_five</item>
     </string-array>
 
     <!-- Immersive Recents -->
