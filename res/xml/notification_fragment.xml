@@ -21,12 +21,6 @@
         android:key="media_cat"
         android:title="@string/media_cat_title" >
 
-        <com.android.purenexussettings.preferences.GlobalSettingSwitchPreference
-            android:key="zen_disable_ducking_during_media_playback"
-            android:title="@string/interruptions_ignore_while_media_title"
-            android:summary="@string/interruptions_ignore_while_media_summary"
-            android:defaultValue="false" />
-
         <SwitchPreference
             android:key="camera_sounds"
             android:title="@string/camera_sounds_title"
@@ -52,14 +46,6 @@
                     android:targetPackage="com.android.settings"
                     android:targetClass="com.android.settings.nexus.HeadsUpSettings" />
         </PreferenceScreen>
-
-        <ListPreference
-            android:key="less_notification_sounds"
-            android:title="@string/less_notification_sounds_title"
-            android:summary="@string/less_notification_sounds_summary"
-            android:entries="@array/less_notification_sounds_entries"
-            android:entryValues="@array/less_notification_sounds_values"
-            android:persistent="false" />
 
         <com.android.purenexussettings.preferences.SystemSettingSwitchPreference
             android:key="battery_saver_notification"

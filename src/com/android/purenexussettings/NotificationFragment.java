@@ -19,7 +19,6 @@ package com.android.purenexussettings;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.SystemProperties;
-import android.preference.ListPreference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
@@ -36,11 +35,9 @@ public class NotificationFragment extends PreferenceFragment implements
 
     private static final String KEY_CAMERA_SOUNDS = "camera_sounds";
     private static final String PROP_CAMERA_SOUND = "persist.sys.camera-sound";
-    private static final String PREF_LESS_NOTIFICATION_SOUNDS = "less_notification_sounds";
     private static final String KEY_HEADS_UP_SETTINGS = "heads_up_frag";
 
     private SwitchPreference mCameraSounds;
-    private ListPreference mAnnoyingNotifications;
     private PreferenceScreen mHeadsUp;
 
     @Override
@@ -54,12 +51,6 @@ public class NotificationFragment extends PreferenceFragment implements
         mCameraSounds.setOnPreferenceChangeListener(this);
 
         mHeadsUp = (PreferenceScreen) findPreference(KEY_HEADS_UP_SETTINGS);
-
-        mAnnoyingNotifications = (ListPreference) findPreference(PREF_LESS_NOTIFICATION_SOUNDS);
-        int notificationThreshold = Settings.System.getInt(getActivity().getContentResolver(),
-		        Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, 0);
-        mAnnoyingNotifications.setValue(Integer.toString(notificationThreshold));
-        mAnnoyingNotifications.setOnPreferenceChangeListener(this);
     }
 
     private boolean getUserHeadsUpState() {
@@ -84,11 +75,6 @@ public class NotificationFragment extends PreferenceFragment implements
            } else {
                SystemProperties.set(PROP_CAMERA_SOUND, "0");
            }
-        }
-        if (PREF_LESS_NOTIFICATION_SOUNDS.equals(key)) {
-            final int val = Integer.valueOf((String) objValue);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, val);
         }
         return true;
     }
