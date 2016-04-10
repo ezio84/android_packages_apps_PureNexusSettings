@@ -282,7 +282,6 @@
     <string name="notification_force_expand_title">Notifiche sempre espanse</string>
     <string name="notification_force_expand_summary">Mostra sempre le notifiche espanse se supportate dall\'app</string>
     <string name="qs_brightness_slider_title">Slider luminosità</string>
-    <string name="qs_main_tiles_title">Ingrandisci la prima riga</string>
     <string name="qs_main_tiles_summary">Due piastrelle principali sulla prima riga</string>
     <string name="qs_advanced_location_title">Impostazioni avanzate localizzazione</string>
     <string name="qs_advanced_location_summary">Abilita caratteristiche avanzate della localizzazione nelle Impostazioni rapide</string>
