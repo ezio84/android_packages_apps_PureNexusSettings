@@ -50,14 +50,12 @@ public class LockscreenFragment extends PreferenceFragment
     private static final String KEY_WALLPAPER_CLEAR = "lockscreen_wallpaper_clear";
     private static final String WALLPAPER_PACKAGE_NAME = "com.slim.wallpaperpicker";
     private static final String WALLPAPER_CLASS_NAME = "com.slim.wallpaperpicker.WallpaperCropActivity";
-    private static final String LSWEATHER = "ls_weather";
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCKSCREEN_MAX_NOTIF_CONFIG = "lockscreen_max_notif_cofig";
 
     private FingerprintManager mFingerprintManager;
     private Preference mSetWallpaper;
     private Preference mClearWallpaper;
-    private Preference mLsWeather;
     ListPreference mLockClockFonts;
     private SeekBarPreference mMaxKeyguardNotifConfig;
     private SystemSettingSwitchPreference mLsTorch;
@@ -72,7 +70,6 @@ public class LockscreenFragment extends PreferenceFragment
 
         mSetWallpaper = (Preference) findPreference(KEY_WALLPAPER_SET);
         mClearWallpaper = (Preference) findPreference(KEY_WALLPAPER_CLEAR);
-        mLsWeather = (Preference)findPreference(LSWEATHER);
 
         PreferenceCategory generalCategory = (PreferenceCategory) findPreference("lockscreen_gen");
         PreferenceCategory customizationCategory = (PreferenceCategory) findPreference("lockscreen_cus");
@@ -120,10 +117,6 @@ public class LockscreenFragment extends PreferenceFragment
 
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mLsWeather) {
-            ((TinkerActivity)getActivity()).displaySubFrag(getString(R.string.lockscreen_weather_fragment_title));
-            return true;
-        }
         if (preference == mSetWallpaper) {
             setKeyguardWallpaper();
             return true;

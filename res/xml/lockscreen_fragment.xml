@@ -64,11 +64,6 @@
                 android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
         </PreferenceScreen>
 
-        <Preference
-            android:key="ls_weather"
-            android:title="@string/lockscreen_weather_fragment_title"
-            android:summary="@string/lockscreen_weather_summary" />
-
         <com.android.purenexussettings.preferences.SystemSettingSwitchPreference
             android:key="hide_lockscreen_clock"
             android:title="@string/hide_lockscreen_clock_title"
