@@ -230,7 +230,7 @@
     <string name="lockscreen_frag_title">Lockscreen</string>
     <string name="lockscreen_gen_title">Lockscreen general options</string>
     <string name="lockscreen_cus_title">Lockscreen customization options</string>
-    <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
+    <string name="keyguard_shortcuts">Lockscreen shortcuts</string>
     <string name="lockscreen_wallpaper_title">Lockscreen wallpaper</string>
     <string name="lockscreen_wallpaper_set_title">Set lockscreen wallpaper</string>
     <string name="lockscreen_wallpaper_clear_title">Reset lock screen wallpaper</string>

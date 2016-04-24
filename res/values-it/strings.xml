@@ -176,7 +176,7 @@
     <string name="lockscreen_frag_title">Lockscreen</string>
     <string name="lockscreen_gen_title">Opzioni generali lockscreen</string>
     <string name="lockscreen_cus_title">Opzioni personalizzazione lockscreen</string>
-    <string name="lockscreen_targets_message">Collegamenti veloci lockscreen</string>
+    <string name="keyguard_shortcuts">Collegamenti veloci lockscreen</string>
     <string name="lockscreen_wallpaper_title">Sfondo lockscreen</string>
     <string name="lockscreen_wallpaper_set_title">Imposta lo sfondo della lockscreen</string>
     <string name="lockscreen_wallpaper_clear_title">Resetta lo sfondo della lockscreen</string>

@@ -52,6 +52,7 @@ public class LockscreenFragment extends PreferenceFragment
     private static final String WALLPAPER_CLASS_NAME = "com.slim.wallpaperpicker.WallpaperCropActivity";
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCKSCREEN_MAX_NOTIF_CONFIG = "lockscreen_max_notif_cofig";
+    private static final String KEYGUARD_SHORTCUTS = "keyguard_shortcuts";
 
     private FingerprintManager mFingerprintManager;
     private Preference mSetWallpaper;

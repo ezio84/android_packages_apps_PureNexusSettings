@@ -43,7 +43,7 @@
             android:key="lockscreen_scramble_pin_layout"
             android:title="@string/unlock_scramble_pin_layout_title"
             android:summary="@string/unlock_scramble_pin_layout_summary"
-	    android:defaultValue="false" />
+            android:defaultValue="false" />
 
         <com.android.purenexussettings.preferences.SystemSettingSwitchPreference
             android:key="fingerprint_success_vib"
@@ -51,18 +51,19 @@
             android:summary="@string/fprint_sucess_vib_summary"
             android:defaultValue="true" />
 
-    </PreferenceCategory>	    
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="lockscreen_cus"
         android:title="@string/lockscreen_cus_title" >
 
-        <PreferenceScreen
-            android:title="@string/lockscreen_targets_message" >
-            <intent
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
-        </PreferenceScreen>
+        <Preference
+            android:key="keyguard_shortcuts"
+            android:title="@string/keyguard_shortcuts">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.nexus.KeyguardShortcuts" />
+        </Preference>
 
         <com.android.purenexussettings.preferences.SystemSettingSwitchPreference
             android:key="hide_lockscreen_clock"
@@ -115,7 +116,7 @@
             android:persistent="false"
             android:dependency="lock_screen_custom_notif" />
 
-    </PreferenceCategory>	    
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="lockscreen_wallpaper"
