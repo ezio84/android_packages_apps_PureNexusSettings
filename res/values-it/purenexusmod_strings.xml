@@ -275,8 +275,8 @@
     <string name="smart_pulldown_summary">Apri i Quick Settings quando non sono presenti notifiche %1$s</string>
     <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_dismissable">Rimovibili</string>
-    <string name="smart_pulldown_persistent">Persistenti</string>
-    <string name="smart_pulldown_all">Rimovibili o persistenti</string>
+    <string name="smart_pulldown_ongoing">Persistenti</string>
+    <string name="smart_pulldown_none">Di alcun tipo</string>
     <string name="status_bar_show_weather_title">Mostra meteo</string>
     <string name="status_bar_show_weather_summary">Mostra il meteo nel pannello dei Quick Settings</string>
     <string name="notification_force_expand_title">Notifiche sempre espanse</string>

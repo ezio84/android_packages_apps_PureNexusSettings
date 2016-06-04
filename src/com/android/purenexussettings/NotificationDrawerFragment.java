@@ -156,10 +156,10 @@ public class NotificationDrawerFragment extends PreferenceFragment implements
                     type = res.getString(R.string.smart_pulldown_dismissable);
                     break;
                 case 2:
-                    type = res.getString(R.string.smart_pulldown_persistent);
+                    type = res.getString(R.string.smart_pulldown_ongoing);
                     break;
                 default:
-                    type = res.getString(R.string.smart_pulldown_all);
+                    type = res.getString(R.string.smart_pulldown_none);
                     break;
             }
             // Remove title capitalized formatting

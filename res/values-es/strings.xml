@@ -387,8 +387,8 @@
   <string name="smart_pulldown_summary">Abrir los ajustes rápidos cuando haya %1$s notificaciones presentes</string>
   <string name="smart_pulldown_off">Desactivado</string>
   <string name="smart_pulldown_dismissable">No descartable</string>
-  <string name="smart_pulldown_persistent">No persistente</string>
-  <string name="smart_pulldown_all">No descartable o persistente</string>
+  <string name="smart_pulldown_ongoing">No persistente</string>
+  <string name="smart_pulldown_none">No descartable o persistente</string>
   <string name="status_bar_show_weather_title">Mostrar predicción del tiempo</string>
   <string name="status_bar_show_weather_summary">Mostrar el tiempo en la cabecera del panel de notificación</string>
   <string name="notification_force_expand_title">Forzar notificaciones expandidas</string>

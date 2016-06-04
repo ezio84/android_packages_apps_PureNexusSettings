@@ -385,8 +385,8 @@
   <string name="smart_pulldown_summary">Schnelleinstellungen öffnen, wenn %1$s Benachrichtigungen vorhanden sind</string>
   <string name="smart_pulldown_off">Aus</string>
   <string name="smart_pulldown_dismissable">Keine verwerfbaren</string>
-  <string name="smart_pulldown_persistent">Keine dauerhaften</string>
-  <string name="smart_pulldown_all">Keine verwerfbaren oder dauerhaften</string>
+  <string name="smart_pulldown_ongoing">Keine dauerhaften</string>
+  <string name="smart_pulldown_none">Keine verwerfbaren oder dauerhaften</string>
   <string name="status_bar_show_weather_title">Zeige Wetterinformationen</string>
   <string name="status_bar_show_weather_summary">Zeige Wetterinformationen oben im Benachrichtigungsfeld</string>
   <string name="notification_force_expand_title">Erweiterte Benachrichtigungen erzwingen</string>

@@ -387,8 +387,8 @@
   <string name="smart_pulldown_summary">Mevcut %1$s bildirimler olduğunda hızlı ayarları açar</string>
   <string name="smart_pulldown_off">Kapalı</string>
   <string name="smart_pulldown_dismissable">Kapatılabilir bildirim yoksa</string>
-  <string name="smart_pulldown_persistent">Kalıcı bildirim yoksa</string>
-  <string name="smart_pulldown_all">Kapatılabilir yada kalıcı yoksa</string>
+  <string name="smart_pulldown_ongoing">Kalıcı bildirim yoksa</string>
+  <string name="smart_pulldown_none">Kapatılabilir yada kalıcı yoksa</string>
   <string name="status_bar_show_weather_title">Hava durumunu göster</string>
   <string name="status_bar_show_weather_summary">Durum çubuğu başlığında hava durumunu göster</string>
   <string name="notification_force_expand_title">Bildirimleri genişletmeye zorla</string>

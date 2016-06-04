@@ -387,8 +387,8 @@
   <string name="smart_pulldown_summary">%1$sの通知がある場合、[クイック設定] を開く</string>
   <string name="smart_pulldown_off">オフ</string>
   <string name="smart_pulldown_dismissable">キャンセル不可</string>
-  <string name="smart_pulldown_persistent">永続不可</string>
-  <string name="smart_pulldown_all">キャンセルまたは維持は不可</string>
+  <string name="smart_pulldown_ongoing">永続不可</string>
+  <string name="smart_pulldown_none">キャンセルまたは維持は不可</string>
   <string name="status_bar_show_weather_title">天気を表示</string>
   <string name="status_bar_show_weather_summary">通知パネルヘッダに天気を表示</string>
   <string name="notification_force_expand_title">通知を強制的に拡張</string>

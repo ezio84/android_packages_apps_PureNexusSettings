@@ -387,8 +387,8 @@
   <string name="smart_pulldown_summary">Ouvrir le Volet des notifications en présence de notifications %1$s</string>
   <string name="smart_pulldown_off">Désativé</string>
   <string name="smart_pulldown_dismissable">Non-effaçables</string>
-  <string name="smart_pulldown_persistent">Non-persistantes</string>
-  <string name="smart_pulldown_all">Non-effaçables et non-persistantes</string>
+  <string name="smart_pulldown_ongoing">Non-persistantes</string>
+  <string name="smart_pulldown_none">Non-effaçables et non-persistantes</string>
   <string name="status_bar_show_weather_title">Afficher la météo</string>
   <string name="status_bar_show_weather_summary">Afficher la météo dans l\'entête du panneau de notification</string>
   <string name="notification_force_expand_title">Forcer les notifications étendues</string>

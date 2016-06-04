@@ -387,8 +387,8 @@
   <string name="smart_pulldown_summary">Atidaryti sparčiuosius nustatymus kai yra %1$s esami pranešimai</string>
   <string name="smart_pulldown_off">Išjungta</string>
   <string name="smart_pulldown_dismissable">Nėra pašalinamų</string>
-  <string name="smart_pulldown_persistent">Nėra nuolatinių</string>
-  <string name="smart_pulldown_all">Nėra pašalinamų ar nuolatinių</string>
+  <string name="smart_pulldown_ongoing">Nėra nuolatinių</string>
+  <string name="smart_pulldown_none">Nėra pašalinamų ar nuolatinių</string>
   <string name="status_bar_show_weather_title">Rodyti orus</string>
   <string name="status_bar_show_weather_summary">Rodyti orus pranešimo juostos skydelio antraštėje</string>
   <string name="notification_force_expand_title">Priverstinis pranešimų išplėtimas</string>

@@ -387,8 +387,8 @@
   <string name="smart_pulldown_summary">현재 알림이 %1$s 빠른 설정을 엽니다</string>
   <string name="smart_pulldown_off">끄기</string>
   <string name="smart_pulldown_dismissable">전부 지울 수 없는 상태일 때</string>
-  <string name="smart_pulldown_persistent">없을 때</string>
-  <string name="smart_pulldown_all">지울 수 없거나 없을 때</string>
+  <string name="smart_pulldown_ongoing">없을 때</string>
+  <string name="smart_pulldown_none">지울 수 없거나 없을 때</string>
   <string name="status_bar_show_weather_title">날씨 표시</string>
   <string name="status_bar_show_weather_summary">알림 패널 헤더에 날씨를 표시합니다</string>
   <string name="notification_force_expand_title">확장된 알림 강요</string>

@@ -387,8 +387,8 @@
   <string name="smart_pulldown_summary">Open Snelle Instellingen wanneer er %1$s meldingen zijn</string>
   <string name="smart_pulldown_off">Uit</string>
   <string name="smart_pulldown_dismissable">Geen verwijderbare</string>
-  <string name="smart_pulldown_persistent">Geen persistente</string>
-  <string name="smart_pulldown_all">Geen verwijderbare of persistente</string>
+  <string name="smart_pulldown_ongoing">Geen persistente</string>
+  <string name="smart_pulldown_none">Geen verwijderbare of persistente</string>
   <string name="status_bar_show_weather_title">Toon weer</string>
   <string name="status_bar_show_weather_summary">Toon weer in de meldingenpaneel kop</string>
   <string name="notification_force_expand_title">Forceer uitgebreide meldingen</string>

@@ -393,8 +393,8 @@ credits]]></string>
   <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications present</string>
   <string name="smart_pulldown_off">Off</string>
   <string name="smart_pulldown_dismissable">No dismissable</string>
-  <string name="smart_pulldown_persistent">No persistent</string>
-  <string name="smart_pulldown_all">No dismissable or persistent</string>
+  <string name="smart_pulldown_ongoing">No persistent</string>
+  <string name="smart_pulldown_none">No dismissable or persistent</string>
   <string name="status_bar_show_weather_title">Pokaż Pogodę</string>
   <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku panelu powiadomień</string>
   <string name="notification_force_expand_title">Wymuś rozszerzone powiadomienia</string>

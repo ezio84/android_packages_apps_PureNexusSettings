@@ -385,8 +385,8 @@
   <string name="smart_pulldown_summary">Открывать Быстрые настройки при %1$s уведомлениях</string>
   <string name="smart_pulldown_off">Выключено</string>
   <string name="smart_pulldown_dismissable">Без удаляемых</string>
-  <string name="smart_pulldown_persistent">Без постоянных</string>
-  <string name="smart_pulldown_all">Без удаляемых и постоянных</string>
+  <string name="smart_pulldown_ongoing">Без постоянных</string>
+  <string name="smart_pulldown_none">Без удаляемых и постоянных</string>
   <string name="status_bar_show_weather_title">Показывать погоду</string>
   <string name="status_bar_show_weather_summary">Показывать погоду в панели уведомлений</string>
   <string name="notification_force_expand_title">Включить расширенные уведомления</string>

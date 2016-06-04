@@ -498,8 +498,8 @@
         <string-array name="smart_pulldown_entries" translatable="false">
         <item>@string/smart_pulldown_off</item>
         <item>@string/smart_pulldown_dismissable</item>
-        <item>@string/smart_pulldown_persistent</item>
-        <item>@string/smart_pulldown_all</item>
+        <item>@string/smart_pulldown_ongoing</item>
+        <item>@string/smart_pulldown_none</item>
     </string-array>
 
     <string-array name="smart_pulldown_values" translatable="false">
